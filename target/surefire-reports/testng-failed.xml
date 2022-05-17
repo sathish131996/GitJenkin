@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="Bing Test(failed)">
+    <classes>
+      <class name="sample2.BingTest">
+        <methods>
+          <include name="BingTest"/>
+        </methods>
+      </class> <!-- sample2.BingTest -->
+    </classes>
+  </test> <!-- Bing Test(failed) -->
+  <test name="Google Test(failed)">
+    <classes>
+      <class name="sample1.GoogleTest">
+        <methods>
+          <include name="GoogleTest"/>
+        </methods>
+      </class> <!-- sample1.GoogleTest -->
+    </classes>
+  </test> <!-- Google Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

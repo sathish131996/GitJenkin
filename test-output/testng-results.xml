@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15711" started-at="2022-05-13T04:39:04Z" finished-at="2022-05-13T04:39:20Z">
+    <groups>
+    </groups>
+    <test name="Bing Test" duration-ms="10116" started-at="2022-05-13T04:39:04Z" finished-at="2022-05-13T04:39:14Z">
+      <class name="sample2.BingTest">
+        <test-method status="PASS" signature="BingTest()[pri:0, instance:sample2.BingTest@27c20538]" name="BingTest" duration-ms="10073" started-at="2022-05-13T10:09:04Z" finished-at="2022-05-13T10:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BingTest -->
+      </class> <!-- sample2.BingTest -->
+    </test> <!-- Bing Test -->
+    <test name="Google Test" duration-ms="5571" started-at="2022-05-13T04:39:14Z" finished-at="2022-05-13T04:39:20Z">
+      <class name="sample1.GoogleTest">
+        <test-method status="PASS" signature="GoogleTest()[pri:0, instance:sample1.GoogleTest@60c6f5b]" name="GoogleTest" duration-ms="5567" started-at="2022-05-13T10:09:14Z" finished-at="2022-05-13T10:09:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleTest -->
+      </class> <!-- sample1.GoogleTest -->
+    </test> <!-- Google Test -->
+  </suite> <!-- Suite -->
+</testng-results>
